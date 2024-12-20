@@ -4,9 +4,11 @@
   "description": "A utility to capture HTML DOM nodes as PNG images and download them.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "build": "bun build src/index.ts --outdir dist",
+    "prepublishOnly": "bun run build",
+    "test": "bun test"
   },
   "keywords": [
     "html-to-image",
