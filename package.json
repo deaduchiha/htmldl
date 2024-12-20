@@ -1,7 +1,9 @@
 {
   "version": "1.0.0",
   "name": "react-node-download",
-  "module": "./src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
