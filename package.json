@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "react-node-download",
-  "module": "index.ts",
+  "module": "./src/index.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
@@ -17,5 +17,9 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "author": {
+    "email": "nikzad.alireza79@gmail.com",
+    "name": "Alireza Nikzad"
   }
 }
