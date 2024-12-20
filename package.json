@@ -1,13 +1,13 @@
 {
   "name": "htmldl",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "A utility to capture HTML DOM nodes as PNG images and download them.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "bun build src/index.ts --outdir dist",
-    "prepublishOnly": "bun run build",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "test": "bun test"
   },
   "keywords": [
@@ -17,7 +17,7 @@
     "dom",
     "utility"
   ],
-  "author": "Your Name",
+  "author": "Alireza Nikzad",
   "license": "MIT",
   "dependencies": {
     "html-to-image": "^1.11.10"
