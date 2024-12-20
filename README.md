@@ -6,7 +6,7 @@
 
 ## Installation
 
-Install the package using npm or yarn:
+Install the package using npm or bun:
 
 ```bash
 npm install htmldl
