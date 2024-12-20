@@ -1,6 +1,6 @@
 {
   "name": "htmldl",
-  "version": "1.6.0",
+  "version": "2.1.0",
   "description": "A utility to capture HTML DOM nodes as PNG images and download them.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
